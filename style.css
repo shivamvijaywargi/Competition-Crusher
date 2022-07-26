@@ -1,0 +1,105 @@
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  position: relative;
+}
+
+.navbar-container img {
+  width: 90px;
+}
+
+.navbar-container div {
+  display: inline-block;
+}
+
+.list {
+  position: absolute;
+  top: 10px;
+}
+
+.list-item {
+  cursor: pointer;
+  display: inline-block;
+
+  color: #b4afaf;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.list-item:hover {
+  color: #000;
+}
+
+.button-group .nav-button {
+  position: absolute;
+  right: 0;
+  top: 15px;
+
+  cursor: pointer;
+
+  background: #5955b3;
+  padding: 15px 30px;
+  font-size: 20px;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.banner-container div {
+  display: inline-block;
+}
+
+.heading-text {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  font-size: 70px;
+  max-width: 400px;
+
+  color: #3c2f60;
+}
+
+.heading-text span {
+  color: #5955b3;
+}
+
+.description {
+  max-width: 400px;
+  position: absolute;
+  top: 500px;
+  left: 180px;
+  color: #8b8b8b;
+  font-size: 20px;
+  /* padding-bottom: -1500px; */
+}
+
+.banner-container div img {
+  position: absolute;
+  right: 0;
+  /* left: 50%; */
+}
+
+.nav-button.btn {
+  position: absolute;
+  top: 630px;
+  left: 180px;
+
+  background: #5955b3;
+  padding: 20px 40px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
